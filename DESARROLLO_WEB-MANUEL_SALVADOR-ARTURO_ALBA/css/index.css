@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.d-block {
+  max-height: 60vh;
+  min-height: 499px;
+}
+footer {
+  color: white;
+  background: #343a40;
+  scroll-snap-align: end;
+  scroll-snap-stop: normal;
+}
+footer a {
+  color: white;
+}
+footer h5 {
+  font-weight: bold;
+  color: #008cff;
+  margin-top: 0.5rem;
+}
+.list-lash li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.list-lash li a {
+  display: inline-block;
+  background: linear-gradient(to right, midnightblue 50%, white 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
+}
+.list-lash li a:hover {
+  background-position: 0 100%;
+}
