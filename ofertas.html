@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CompraVisual</title>
+    <link rel="icon" href="logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel = "icon" href ="imagenes/logo.png" type = "image/x-icon" /> 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Barra de navegación [Catalogo, Ofertas, Contacto e Inicar Sesión]-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">CompraVisual</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="catalogo.html"
+              >Catalogo<span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ofertas.html">Ofertas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarCollapse"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="login.php">Iniciar Sesion</a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </nav>
+
+    <br />
+    <br />
+    <div class="container">
+      <div class="row" id="app"></div>
+    </div>
+    <br />
+    <br />
+    <!-- FOOTER -->
+    <footer>
+      <br>
+      <div class="container"><div class="row">
+          <section class="col-xl-5">
+              <div>
+                  <a class="navbar-brand" href="index.html"><b style="color: #008cff;">COMPRAVISUAL</b></a>
+                  <p>2021 CompraVisual ©  All Rights Reserved.</p>
+              </div>
+          </section>
+          <section class="col-md-4">
+              <h5>Contacto</h5>
+              <dl>
+                  <dd><a href="mailto:#">arturito100500@gmail.com</a></dd>
+                  <dd><a href="mailto:#">manusalvadorg@gmail.com</a></dd>
+              </dl>
+          </section>
+          <section class="col-xl-3">
+              <h5>Links</h5>
+              <ul class="list-lash">
+                  <li><a href="index.html" id="index" onclick="document.location=this.id+'.html';return false;">Inicio </a></li>
+                  <li><a href="catalogo.html" id="catalogo" onclick="document.location=this.id+'.html';return false;">Catalogo</a></li>
+                  <li><a href="ofertas.html" id="ofertas" onclick="document.location=this.id+'.html';return false;">Ofertas</a></li>
+                  <li><a href="contacto.html" id="contacto" onclick="document.location=this.id+'.html';return false;">Contacto</a></li>
+                  <li><a href="login.html" id="login" onclick="document.location=this.id+'.html';return false;">Iniciar Sesion</a></li>
+              </ul>
+          </section>
+      </div>
+    </footer>
+    <script src="ofertas.js"></script>
+  </body>
+</html>
